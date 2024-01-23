@@ -1,4 +1,4 @@
-
+// main js 
 window.addEventListener("DOMContentLoaded", function() {
 //maybe change into 2 data objects and have img
 data={
