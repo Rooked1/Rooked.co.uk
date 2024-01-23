@@ -22,7 +22,7 @@ data={
     let clickCount=0;
     let clickCount1=0;
     let abery = document.getElementById("name");
-    let bbery = document.getElementById("answer")
+    let bbery = document.getElementById("answer");
     document.getElementById("myBtn1").addEventListener("click", myFunction);
     document.getElementById("myBtn").addEventListener("click", myFunction1);
     
