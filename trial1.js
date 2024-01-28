@@ -1,6 +1,6 @@
 
 window.addEventListener("DOMContentLoaded", function() {
-//maybe change into 2 data objects and have img
+//maybe change into 2 data objects and have img , need to check how to do this
 data={
     "if you are asked to factorise 2x&sup2;-9x+4 what numbers should you use?": "Use the multiples of the first and last numbers to make the middle number {2&1 and 4&2 make (2x-1)(x-4)}",
     "What form do quadratic equations take?": "y = ax&sup2;     +bx+c",
@@ -14,7 +14,7 @@ data={
     "If &radic;(b&sup2;-4ac)<0 how many points or interaction are there between the curve and the line":"0",
     'What is it called when you divide (or factorise) a polynomial?' : "Synthetic division",
     ' If you were asked to show that (x-2) was a factor in a polynomial what number would be the divisor?':"2",
-
+    'next one here': 'yes here!'
 }
 
 //count clicks and record in variable, use that variable to get object variable and put into element
