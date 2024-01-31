@@ -8,7 +8,7 @@ html{
 
 body{
     
-    background: linear-gradient(45deg ,#009B4D,rgb(109, 224, 109) );
+    background: linear-gradient(45deg ,#e4f1fe, #8dc6ff );
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100%;
     margin:0;
@@ -20,13 +20,15 @@ body{
 display: flex;
 height:75px;
 justify-content: center;
+color:#34495e;
 }
 
 .nav11{
 height: 50px;
 width:100px;
 border-radius:20%;
-background: #FFCC00;
+color: #34495e;
+background:#8dc6ff;
 text-align: center;
 padding-top:1%;
 border:black solid;
@@ -52,7 +54,7 @@ border:black solid;
     padding:0;
     position:relative;
     top:50px;
-    background-color:#ffcc00;
+    background-color:#8dc6ff;
     border: gray solid;
     box-shadow:10px 5px 5px black ;
     border-radius: 5%;}
@@ -65,11 +67,10 @@ display: flex;
 #myBtn{
    
     font-weight: bold;
-    color:black;
-    background-color:#FFCC00;
-    height: 120px;
-    width: 100px;
-    color:blue;
+    color:#34495e;
+    background-color: #e4f1fe;
+    height: 220px;
+    width: 150px;
     border-radius: 10%;
     margin-left: auto;
     margin-right: auto;
@@ -81,11 +82,11 @@ display: flex;
 #myBtn1{
    
     font-weight: bold;
-    color:blue;
-    background-color:#FFCC00;
-    height: 120px;
-    width: 100px;
-   font-size:3rem;
+    background-color:#e4f1fe;
+    height: 220px;
+    width: 150px;
+    color: #34495e;
+    font-size:3rem;
     margin-left: auto;
     margin-right: auto;
     box-shadow:  10px 5px 5px black;
@@ -101,11 +102,11 @@ display: flex;
     margin:auto;
     text-align:center;
     padding: 80px 50px;
-    background:linear-gradient(45deg ,ivory, #ffcc00);
+    background:linear-gradient(45deg ,ivory, #8dc6ff);
     box-shadow:10px 5px 5px black;
     border-radius: 5%;
     padding-top:10px;
-    color:blue;
+    color:#34495e;
 }
 
 #answer{
@@ -117,22 +118,22 @@ display: flex;
     margin:auto;
     text-align:center;
     padding: 80px 50px;  
-    background:linear-gradient(45deg ,ivory, #ffcc00);
+    background:linear-gradient(45deg ,ivory, #8dc6ff);
     box-shadow:10px 5px 5px black;
     border-radius: 5%;
     padding-top:10px;
-    color:blue;
+    color:#34495e;
 }
 .title{
     display: block;
-    color:blue;
+    color:#34495e;
     width:300px;
     height:100px;
-    margin-left: 450px;
+    margin-left: 580px;
     text-align: center;
     font-size: 2.7rem;
     font-weight: bolder;
-    background:linear-gradient(45deg ,ivory, #ffcc00);
+    background:linear-gradient(45deg ,ivory, #8dc6ff);
     border:grey solid;
     box-shadow:10px 5px 5px black;
     border-radius: 20%;
