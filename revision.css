@@ -3,6 +3,7 @@ html{
     padding:0;
     margin:0;
     
+    
 }
 
 
@@ -14,13 +15,22 @@ body{
     margin:0;
     padding:0;
     
+    
 }
-
+.top{
+    border-style: solid;
+    border-color: #34495e;
+    border-radius: 10px;
+}
 .nav1 {
 display: flex;
-height:75px;
+height: 50  px;
 justify-content: center;
 color:#34495e;
+border-style: solid;
+border-color: #34495e;
+border-radius: 10px;
+background-color: #e4fefc;
 }
 
 .nav11{
@@ -28,7 +38,7 @@ height: 50px;
 width:100px;
 border-radius:20%;
 color: #34495e;
-background:#8dc6ff;
+background-color:rgba(128, 128, 128, 0.104);
 text-align: center;
 padding-top:1%;
 border:black solid;
@@ -36,15 +46,13 @@ border:black solid;
 
 
 
-.top{
-    display: grid;
-    grid-template-rows: 75px 150px 250px  ;
-}
+
 .Facts{
     display:flex;
     flex-direction: row;
     height:auto;
 }
+
 #arrow{
     font-size: 25px;
     text-align: center;
@@ -62,15 +70,16 @@ border:black solid;
 
 .buttons{
 display: flex;
+padding-bottom: 10px;
 }
 
 #myBtn{
-   
+
     font-weight: bold;
     color:#34495e;
-    background-color: #e4f1fe;
+    background-color: #e4fefc;
     height: 220px;
-    width: 150px;
+    width: 220px;
     border-radius: 10%;
     margin-left: auto;
     margin-right: auto;
@@ -82,9 +91,9 @@ display: flex;
 #myBtn1{
    
     font-weight: bold;
-    background-color:#e4f1fe;
+    background-color: #e4fefc;
     height: 220px;
-    width: 150px;
+    width: 220px;
     color: #34495e;
     font-size:3rem;
     margin-left: auto;
@@ -94,14 +103,15 @@ display: flex;
     text-align: center;
 }
 #name {
-    height: inherit;
-    min-height: 50px;;
-    width: 300px;
+    display: block;
+    color:#34495e;
+    width:450px;
+    height:75px;
     border: grey solid;
     font-size: 1.2rem;
     margin:auto;
     text-align:center;
-    padding: 80px 50px;
+    padding: 80px 50px;  
     background:linear-gradient(45deg ,ivory, #8dc6ff);
     box-shadow:10px 5px 5px black;
     border-radius: 5%;
@@ -110,9 +120,10 @@ display: flex;
 }
 
 #answer{
-    Height: inherit;
-    min-height: 50px;
-    width: 300px;
+    display: block;
+    color:#34495e;
+    width:450px;
+    height:75px;
     border: grey solid;
     font-size: 1.2rem;
     margin:auto;
@@ -127,19 +138,21 @@ display: flex;
 .title{
     display: block;
     color:#34495e;
-    width:300px;
-    height:100px;
-    margin-left: 580px;
+    width:450px;
+    height:75px;
+    margin-left: 510px;
     text-align: center;
     font-size: 2.7rem;
     font-weight: bolder;
     background:linear-gradient(45deg ,ivory, #8dc6ff);
     border:grey solid;
     box-shadow:10px 5px 5px black;
-    border-radius: 20%;
-    padding-top: 10px;
+    border-radius: 5%;
+    padding-top: 25px;
     margin-top:40px;
 }
+
+
 
 @media only screen and (max-width: 600px) {
    .html{
@@ -154,9 +167,9 @@ display: flex;
     
     
     .title {
-     font-size:2rem;
-     height:80px;
-     width:250px;
+     font-size:3rem;
+     height:160px;
+     width:500px;
      position:relative;
      left:5px;
      text-align:center;
@@ -202,6 +215,6 @@ display: flex;
     #arrow{
         height:10px;
         width:10px;
-    }
-    
+
   }
+}
