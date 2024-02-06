@@ -1,5 +1,6 @@
 html{
     height: 100%;
+    width:100%;
     padding:0;
     margin:0;
     
@@ -12,16 +13,13 @@ body{
     background: linear-gradient(45deg ,#e4f1fe, #8dc6ff );
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100%;
+    width:100%;
     margin:0;
     padding:0;
     
     
 }
-.top{
-    border-style: solid;
-    border-color: #34495e;
-    border-radius: 10px;
-}
+
 .nav1 {
 display: flex;
 height: 50  px;
@@ -29,14 +27,14 @@ justify-content: center;
 color:#34495e;
 border-style: solid;
 border-color: #34495e;
-border-radius: 10px;
+border-radius: 5px;
 background-color: #e4fefc;
 }
 
 .nav11{
 height: 50px;
 width:100px;
-border-radius:20%;
+border-radius:15%;
 color: #34495e;
 background-color:rgba(128, 128, 128, 0.104);
 text-align: center;
@@ -57,7 +55,7 @@ border:black solid;
     font-size: 25px;
     text-align: center;
     color: black;
-    height:130px;
+    height:100px;
     margin:0;
     padding:0;
     position:relative;
@@ -70,7 +68,7 @@ border:black solid;
 
 .buttons{
 display: flex;
-padding-bottom: 10px;
+padding-bottom: 5%;
 }
 
 #myBtn{
@@ -79,7 +77,7 @@ padding-bottom: 10px;
     color:#34495e;
     background-color: #e4fefc;
     height: 220px;
-    width: 220px;
+    width: 15%;
     border-radius: 10%;
     margin-left: auto;
     margin-right: auto;
@@ -93,7 +91,7 @@ padding-bottom: 10px;
     font-weight: bold;
     background-color: #e4fefc;
     height: 220px;
-    width: 220px;
+    width: 15%;
     color: #34495e;
     font-size:3rem;
     margin-left: auto;
@@ -105,7 +103,7 @@ padding-bottom: 10px;
 #name {
     display: block;
     color:#34495e;
-    width:450px;
+    width:25%;
     height:75px;
     border: grey solid;
     font-size: 1.2rem;
@@ -113,7 +111,7 @@ padding-bottom: 10px;
     text-align:center;
     padding: 80px 50px;  
     background:linear-gradient(45deg ,ivory, #8dc6ff);
-    box-shadow:10px 5px 5px black;
+   
     border-radius: 5%;
     padding-top:10px;
     color:#34495e;
@@ -122,7 +120,7 @@ padding-bottom: 10px;
 #answer{
     display: block;
     color:#34495e;
-    width:450px;
+    width:25%;
     height:75px;
     border: grey solid;
     font-size: 1.2rem;
@@ -130,7 +128,7 @@ padding-bottom: 10px;
     text-align:center;
     padding: 80px 50px;  
     background:linear-gradient(45deg ,ivory, #8dc6ff);
-    box-shadow:10px 5px 5px black;
+   
     border-radius: 5%;
     padding-top:10px;
     color:#34495e;
@@ -138,15 +136,15 @@ padding-bottom: 10px;
 .title{
     display: block;
     color:#34495e;
-    width:450px;
+    width:30%;
     height:75px;
-    margin-left: 510px;
+    margin-left: 35%;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bolder;
     background:linear-gradient(45deg ,ivory, #8dc6ff);
     border:grey solid;
-    box-shadow:10px 5px 5px black;
+   
     border-radius: 5%;
     padding-top: 25px;
     margin-top:40px;
@@ -157,26 +155,10 @@ padding-bottom: 10px;
 @media only screen and (max-width: 600px) {
    .html{
        width:100%;
-       background:#009B4D;
+       
       
    }
    
-    .top{
-        grid-template-rows: 100px 150px;
-    }
-    
-    
-    .title {
-     font-size: 50px;
-     height:260px;
-     width:500px;
-     position:relative;
-     left:5px;
-     text-align:center;
-     padding-top:10px;
-     border-radius: 10px;
-     margin:auto;
-    }
     
     #myBtn{
         width:120px;
