@@ -155,10 +155,12 @@ padding-bottom: 5%;
 @media only screen and (max-width: 600px) {
    .html{
        width:100%;
-       
-      
+       }
+   .title{
+font-size: small;
+width:20%;
+
    }
-   
     
     #myBtn{
         width:120px;
@@ -177,16 +179,16 @@ padding-bottom: 5%;
     }
     
     #name{
-        height:40px;
-        width: 150px;
+        height:100px;
+        width: 30%;
         font-size:1rem;
         text-align:justify;
         margin:auto;
 
     }
     #answer{
-        height:50px;
-        width: 150px;
+        height:100px;
+        width: 30%;
         font-size:1rem;
         text-align:justify;
         margin:auto;
