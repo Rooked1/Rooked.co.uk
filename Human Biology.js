@@ -1,6 +1,6 @@
 
 
-const data= require('C:\Users\micha\Code\trial\Rooked.co.uk\Human Biology Unit1.js');
+import data from '..//Human Biology Unit1.js';
  alert(data) ;  
     //count clicks and record in variable, use that 
 

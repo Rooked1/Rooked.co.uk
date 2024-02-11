@@ -33,4 +33,4 @@ data={
     "Describe how the sympathetic system arouses the body in preperation for action and use of energy during fight or flight?":"Increase of heart rate and blood pressure,blood supplies diverted away from gut and to the skeletal muscles, it involves the neurotransmitter noradreneline",
     "Describe how the parasympathetic system clams the body down after fight or flight response?":"Heart rate and blood pressure decrease, rate of persistaltic contractions in the digestive tract increase,blood is diverted to the intestines,it causes the body to conserve energy and it involves the neurotransmitter acetylcholine",}
 
-    module.export=data;
+    export default data;
