@@ -1,4 +1,4 @@
-data={
+let data={
     "What are Somatic Cells?":"Somatic cells are diploid cells and contain two sets of homologous  chromosomes.A somatic cell is any cell in the body other than cells involved in  reproduction (gametes).",
      "What are Diploid Cells?":"A Diploid cell contains two complete sets of chromosomes, one from each parent. Most cells in the human body are diploid.",
      "How many chromosomes do Diploid cells have?":"Diploid cells in humans have 23 pairs of homologous chromosomes.",
@@ -18,19 +18,24 @@ data={
     "What is the function of adult stem cells?":"Tissue (adult) stem cells replenish differentiated cells that need to be  replaced.",
     "In what numbers are adult stem cells found?":"Tissue (adult) stem cells are found in very small numbers throughout the  body tissues.",
     "What do adult stem cells give rise to?":"Tissue (adult) stem cells give rise to a limited range of cell types typical of  the organ of which they are a part (multipotent). They have a limited  differentiation potential.or example, blood stem cells located in bone marrow can give rise to red  blood cells, platelets, phagocytes and lymphocytes.",
-     "The nervous system is divided into what 2 parts?": "The central nervous system and the peripheral nervous system",
-    "What does the central nervous system comprise of?": "The brain,the spinal cord, optic nerve and the retinas of the eyes",
-    "What two main parts is the periperhal nervous system divided up into?":"The somatic and autonomic nervous system",
-    "What is the autonomic system further divided into?":"The symapathetic and parasympathetic nervous systems",
-    "What does the peripheral nervous system comprise of?":"The peripheral nervous system comproses all sensory and motor neurones outside the central nervous system",
-    "What does the somatic nervous system control?":"It controls the volunatary movements of skeletal muscles (and also some reflex actions)",
-    "How does the somatic nervous system control voluntary movements?":"This control involves sensory neurons from sense organs to CNS and motor neurons from CNS to muscles",
-    "What is the autonomic nervous system (ANS) responsible for?":"The involuntary homeostatic control of many body functions(heart rate,body temperature and digestion)",
-    "How does the ANS control body functions?":"It controls body functions using sensory neurons and motor neurons",
-    "Give three examples of where motor neurons of the ANS may connect to?":"They may connect to smooth muscle (e.g. gut), cardiac muscle (e.g.pacemaker) or glands(e.g. adrenal gland)",
-    "Describe how the ANS symapthetic and parasympathetic work together?":"They are opposing fuctions and are antagonistic",
-    "List three differences between the sympathetic and the parasympathetic role?":"The symapthetic division prepares the body for action while the parasymathtice returns the body to rest.Symapathetic nerves speed the heart up while parasymathetic slow down.Sympathetic nerves slow down the rate of peristalsis while parasympathetic slows it down",
-    "Describe how the sympathetic system arouses the body in preperation for action and use of energy during fight or flight?":"Increase of heart rate and blood pressure,blood supplies diverted away from gut and to the skeletal muscles, it involves the neurotransmitter noradreneline",
-    "Describe how the parasympathetic system clams the body down after fight or flight response?":"Heart rate and blood pressure decrease, rate of persistaltic contractions in the digestive tract increase,blood is diverted to the intestines,it causes the body to conserve energy and it involves the neurotransmitter acetylcholine",}
+     "Give an example of stem cells giving roise to a limited range of cells?":"For example, blood stem cells located in bone marrow can give rise to red blood cells, platelets, phagocytes and lymphocytes.",
+    "Why are stem cells useful for research?":"Stem cells are useful for research because they are capable of giving rise to a range of cell types and can be cultured indefinitely in the laboratory.",
+    "What cell  processes have stem cell research contributed to?":"Stem cell research has contributed to our understanding of cell processes such as growth, differentiation and gene regulation.",
+    "Stem cells cultured from patients with particular diseases can be used for what?":"Stem cells cultured from patients suffering from particular conditions can be used to produce very specific cultures for use in testing a wide range of drugs, e.g. Alzheimer's disease.",
+     "Why do stem cells have theraputic use?":"Stem cells have therapeutic uses because they are pluripotent and can be stimulated in culture to form a wide variety of tissues.",
+    "What can stem cells be used for?":"Stem cells can be used in the repair of damaged or diseased organs and  tissues.",
+    "In corneal repair what does the use of stem cells do?":"In corneal repair, the use of corneal stem cells from the patient's own tissue speeds up the process, creates new healthy tissue, and reduces the chance of rejection.",
+    "How do stem cells assist in cell grafting?":"In skin grafting, the use of epidermal stem cells allows the much more rapid production of a temporary graft, which reduces the risk of dehydration or infection.",
+    "What are the principal ethical concerns abput stem cells?":"The principal ethical issues associated with stem cell use in research apply to embryonic stem cell use.The ethical objections to the use of embryonic stem cells are principally that an embryo is destroyed in the process.",
+    "Why do cancer cells divide excessively and what does this cause?":"Cancer cells divide excessively because they do not respond to regulatory signals.This results in a mass of abnormal cells called a tumour.",
+    "Why do tumours spread throughout the body?":"Cells within the tumour may fail to attach to each other, spreading through the body where they may form secondary tumours.",
+    "What is a benign tumour?":"A benign tumour is one which does not invade neighbouring tissues or spread throughout the body.",
+    "What is a malignant tumour?":"A malignant tumour is one in which the cells lose the molecules on their surface that normally hold them in place; they can therefore become detached from their neighbours and spread through the body in the blood or lymphatic circulation.",
+    "What is the original tumour and the detached cells called?":"The original tumour is called the primary tumour and those forming from the detached cells are called secondary tumours.",
 
+
+
+
+
+}
     export default data;
