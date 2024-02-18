@@ -1,7 +1,7 @@
 
 
 import data from '..//Human Biology Unit1.js';
- alert(data) ;  
+ 
     //count clicks and record in variable, use that 
 
 window.addEventListener("DOMContentLoaded", function() {
@@ -18,7 +18,8 @@ window.addEventListener("DOMContentLoaded", function() {
         
         function myFunction(){
          
-        
+        if (Object.keys(data).length<clickCount){return};
+        console.log (clickCount)
         if(clickCount==clickCount1){
         abery.innerHTML="";
         bbery.innerHTML="";
